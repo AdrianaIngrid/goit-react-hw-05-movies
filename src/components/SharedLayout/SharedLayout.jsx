@@ -1,7 +1,11 @@
 import { Outlet } from "react-router-dom";
 import { StyledLink, Header, Container, LogoSpan } from "./SharedLayout.styled";
 import { FaFilm } from 'react-icons/fa';
-export const SharedLayout = () => {
+
+
+
+
+export   const SharedLayout = () => {
     return (
       <Container>
         <Header>
@@ -15,7 +19,9 @@ export const SharedLayout = () => {
             <StyledLink to="/movies">Movies</StyledLink>
           </nav>
         </Header>
-     <Outlet/>
+        <main>
+          <Outlet />
+        </main>
       </Container>
     );
 };

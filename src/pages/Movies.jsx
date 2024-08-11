@@ -45,9 +45,7 @@ const Movies = () => {
                 },
             });
           setMovies(response.data.results);
-          if (response.data.results === 0) {
-            alert("There are no movies of your query");
-          }
+        
             
         } catch (error) {
             setError("Eroare la preluarea datelor", error);

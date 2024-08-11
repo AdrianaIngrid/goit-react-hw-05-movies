@@ -17,6 +17,7 @@ export const StyledLink = styled(NavLink)`
     background-color: blue;
   }
 `;
+
 export const LogoSpan = styled.span`
   width: 50px;
   height: 40px;
